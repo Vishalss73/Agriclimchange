@@ -1,0 +1,396 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500&display=swap');
+body {
+	margin: 0;
+	padding: 0;
+   font-family: 'Josefin Sans', sans-serif;
+   text-align: left !important;
+}
+/* Menu Design */ 
+
+.navbar-design {
+	padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+   
+    background-color: #fff;
+
+}
+.nav-item a {
+    color: rgb(0 0 0 / 65%) !important;
+}
+.center-menu li {
+margin-right: 20px;
+}
+.nav-item svg {
+    width: 16px;
+    height: 16px;
+    margin-right: 0;
+    margin-left: 4px;
+    transform: rotate(90deg);
+    transition: transform .2s ease-in,fill .3s;
+    fill: rgba(0,0,0,.55);
+}
+
+/* Home Page Design */
+.homepage {
+	width: 100%;
+	background: #195afe;
+    height: 80vh;
+}
+.page-header-ui-content {
+	padding-top: 120px;
+}
+.page-header-ui-title {
+color: #fff;
+
+    font-size: 40px;
+    letter-spacing: -0.005em;
+    font-size: 3.25rem;
+   
+}
+.page-header-ui-text {
+	color: #fff;
+	        margin-top: 12px;
+    font-size: 16px;
+        line-height: 1.29;
+    letter-spacing: .01em;
+            
+        
+}
+.form-design {
+	background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 8px 8px 32px rgb(64 68 77 / 16%);
+    border-radius: 50px;
+}
+
+.form-input {
+	padding: 0.8rem 0.75rem !important;
+	border: none;
+}
+.form-control-solid {
+    background-color: transparent !important;
+}
+.search-btn {
+    border-radius: 50px;
+    color: #fff;
+    background-color: #195afe;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+.search-btn:hover {
+  color: #fff;
+      background-color: #5670fb;
+}
+.app-header__user-link {
+       box-sizing: border-box;
+    max-width: 100%;
+    padding: 6px 8px;
+    background-color: transparent;
+    color: #092540;
+    text-decoration: none;
+    -moz-appearance: none;
+        margin-right: 20px;
+}
+.app-header__user-link svg{
+    margin-right: 8px;
+}
+.swui-button {
+    background-color: #195afe;
+    color: #fff;
+    border-radius: 25px;
+    border: none;
+      padding: 0.55rem 18px;
+}
+.title-sites {
+    margin: 30px 0 ;
+}
+.title-sites h1 {
+	    font-family: 'Josefin Sans', sans-serif;
+	font-size: 20px;
+    font-weight: 600;
+    
+}
+@media only screen and (max-width: 600px) {
+    .page-header-ui-content {
+        padding-top: 10px;
+    }
+    .home-txt {
+        padding: 0 !important;
+    }
+    .page-header-ui-title {
+        font-size: 2.25rem !important;
+    }
+    .col-search {
+        display:none;
+    }
+    .m-input {
+      margin-right: 20px;
+      margin-left: 20px;
+    }
+  }
+/* Sites Section Design */
+@media (min-width: 1200px){
+.containerss{
+    padding-right: 50px;
+    padding-left: 50px;
+}
+}
+.Sites-details {
+	
+}
+.sitesshow-container {
+	    background-color: #fff;
+    -moz-box-shadow: 0 0 20px 0 rgba(244,244,244,1);
+    position: relative;
+    text-align: left;
+    padding: 27px 18px 10px;
+    border-radius: 10px;
+    border: 1px solid #ebf0f6;
+    box-sizing: border-box;
+    
+
+}
+
+.sitesshow-container  .img-show img {
+width: 100%;
+}
+.title-col a {
+    text-decoration: none;
+}
+.title-col a h2{
+font-weight: 700;
+font-size: 25px;
+}
+
+/* Company Details */
+
+.title-col-company {
+	border: none;
+}
+.title-col-company a {
+	    font-size: 13px;
+    text-decoration: none;
+    color: #1048c3;
+    font-weight: 700;
+}
+.company-show-container {
+	padding: 10px 12px 10px;
+    border-radius: 10px;
+}
+.s-dsc p {
+    
+}
+
+/* -----------------
+---- Footer Design ---*/
+.footer-design {
+    background-color: #f6f7ff !important;
+}
+.text-reset {
+    text-decoration: none !important;
+}
+.studym p {
+    font-weight: 700;
+    color: #1e223c;
+}
+.footer-web-dsc p {
+    color: #1e223c;
+}
+.studym span {
+    color: rgb(0 0 0 / 65%) !important;
+}
+.footer-web-dsc form {
+    margin-top: 30px;
+}
+
+/* Single Post Design */ 
+.post-container h1 {
+font-size: 35px;
+text-align: left;
+padding-left: 25px;
+
+}
+.post-show img {
+    width: 100%;
+    border: 0.8px solid #f0f0f0;
+}
+.sidebar-container h4 {
+    font-size: 20px;
+    font-weight: 700;
+    border-bottom: 0.8px solid #f0f0f0;
+    border-radius: 3px;
+    box-shadow: 0 2px 5px rgb(0 0 0 / 26%);
+    background: linear-gradient(to bottom right, #d5d5d5 0%, #2c2b2b 100%);
+    border-bottom: 2px #ffffff solid;
+    color: #FFF;
+    border-top-right-radius: 2em;
+    padding: 9px 10px 9px 10px;
+    border-bottom-left-radius: 2em;
+    text-align: center;
+    
+    
+}
+.post-show {
+    font-family: 'Barlow', sans-serif;
+    font-size: 13px;
+    text-align: left !important;
+}
+.post-meta {
+  border-top: 1px solid #f0f0f0;
+  border-bottom: 1px solid #f0f0f0;
+    margin-top: 10px;
+}
+
+.post-show p {
+    text-align: left;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+}
+.post-show-container {
+    border-bottom: 0.8px solid #f0f0f0;
+    margin-top: 10px;
+}
+/* Comment Section */ 
+.com-text-area {
+    width: 100%;
+}
+.comment-container h4 {
+    font-size: 20px;
+    font-weight: 700;
+    border-bottom: 0.8px solid #f0f0f0;
+    border-radius: 3px;
+    box-shadow: 0 2px 5px rgb(0 0 0 / 26%);
+    background: linear-gradient(to bottom right, #d5d5d5 0%, #2c2b2b 100%);
+    border-bottom: 2px #ffffff solid;
+    color: #FFF;
+    border-top-right-radius: 2em;
+    padding: 9px 10px 9px 10px;
+    border-bottom-left-radius: 2em;
+    text-align: center;
+}
+.comment-btn {
+    background-color: #5670fb;
+    border: 1px solid #5670fb;
+    color: #fff;
+    border-radius: 25px;
+    border: none;
+    padding: 0.45rem 30px;
+
+}
+.com-text-area:focus {
+    outline: none !important;
+}
+.comment-btn:hover {
+    background-color: #195afe;
+}
+
+
+.card-white  .card-heading {
+    color: #333;
+    background-color: #fff;
+    border-color: #ddd;
+     border: 1px solid #dddddd;
+  }
+  .card-white  .card-footer {
+    background-color: #fff;
+    border-color: #ddd;
+  }
+ 
+  .post .post-heading {
+    height: 95px;
+    padding: 20px 15px 0;
+  }
+  .post .post-heading .avatar {
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin-right: 15px;
+    border-radius: 50%;
+  }
+  .post .post-heading .meta .title {
+    margin-bottom: 0;
+    font-size: 12px;
+  }
+  .post .post-heading .meta .title a {
+    color: black;
+  }
+  .post .post-heading .meta .title a:hover {
+    color: #aaaaaa;
+  }
+  .post .post-heading .meta .time {
+    margin-top: 8px;
+    color: #999;
+  }
+  .post .post-image .image {
+    width: 100%;
+    height: auto;
+  }
+  .post .post-description {
+    padding: 0 15px 15px 15px;
+  }
+  .post .post-description p {
+    font-size: 14px;
+  }
+  .post .post-description .stats {
+    margin-top: 20px;
+  }
+  .post .post-description .stats .stat-item {
+    display: inline-block;
+    margin-right: 15px;
+  }
+  .post .post-description .stats .stat-item .icon {
+    margin-right: 8px;
+  }
+  .post .post-footer {
+    border-top: 1px solid #ddd;
+    padding: 15px;
+  }
+  .post .post-footer .input-group-addon a {
+    color: #454545;
+  }
+  .post .post-footer .comments-list {
+    padding: 0;
+    margin-top: 20px;
+    list-style-type: none;
+  }
+  .post .post-footer .comments-list .comment {
+    display: block;
+    width: 100%;
+    margin: 20px 0;
+  }
+  .post .post-footer .comments-list .comment .avatar {
+    width: 35px;
+    height: 35px;
+  }
+  .post .post-footer .comments-list .comment .comment-heading {
+    display: block;
+    width: 100%;
+  }
+  .post .post-footer .comments-list .comment .comment-heading .user {
+    font-size: 14px;
+    font-weight: bold;
+    display: inline;
+    margin-top: 0;
+    margin-right: 10px;
+  }
+  .post .post-footer .comments-list .comment .comment-heading .time {
+    font-size: 12px;
+    color: #aaa;
+    margin-top: 0;
+    display: inline;
+  }
+  .post .post-footer .comments-list .comment .comment-body {
+    margin-left: 50px;
+  }
+  .card-white {
+    border:none !important
+  }
+/* Job Section sidebar */
+.company-l {
+    text-align: left;
+}
